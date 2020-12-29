@@ -302,18 +302,18 @@ public class messages_it extends java.util.ResourceBundle {
   }
   public java.util.Enumeration getKeys () {
     return
-      new java.util.Enumeration() {
-        private int idx = 0;
-        { while (idx < 794 && table[idx] == null) idx += 2; }
-        public boolean hasMoreElements () {
-          return (idx < 794);
-        }
-        public java.lang.Object nextElement () {
-          java.lang.Object key = table[idx];
-          do idx += 2; while (idx < 794 && table[idx] == null);
-          return key;
-        }
-      };
+        new java.util.Enumeration() {
+          private int idx = 0;
+          { while (idx < 794 && table[idx] == null) idx += 2; }
+          public boolean hasMoreElements () {
+            return (idx < 794);
+          }
+          public java.lang.Object nextElement () {
+            java.lang.Object key = table[idx];
+            do idx += 2; while (idx < 794 && table[idx] == null);
+            return key;
+          }
+        };
   }
   public java.util.ResourceBundle getParent () {
     return parent;
