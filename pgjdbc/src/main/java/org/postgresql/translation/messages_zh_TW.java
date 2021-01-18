@@ -242,7 +242,7 @@ public class messages_zh_TW extends java.util.ResourceBundle {
       if (msgid.equals(found))
         return table[idx + 1];
     }
-    int incr = ((hash_val % 287) + 1) << 1;
+          int incr = ((hash_val % 287) + 1) << 1;
     for (;;) {
       idx += incr;
       if (idx >= 578)
